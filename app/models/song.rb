@@ -11,6 +11,7 @@ class Song < ActiveRecord::Base
     if self.artist
         self.artist.name = name
     end
-
   end
+
+
 end
