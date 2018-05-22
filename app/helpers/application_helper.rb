@@ -1,6 +1,6 @@
 module ApplicationHelper
   def display_artist(song)
-    if self.artist.present?
+    if self.artist_name.exist?
       #display link to artist
       link_to artist_path(self), artist.name
     else
